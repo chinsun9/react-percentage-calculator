@@ -4,6 +4,10 @@
 
 - 리액트로 만드는 네이버 퍼센트 계산기
 
+## [데모](https://chinsun9.github.io/react-percentage-calculator)
+
+<img src="readmeRes/2.jpg">
+
 ## 리액트 타입스크립트 시작하는 방법
 
 ```cmd cmd
