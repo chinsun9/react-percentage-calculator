@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcc023e58f90297b44fc6ac99b1893df",
+    "revision": "825f187e63b5f2ee2abb32dcc79f65a4",
     "url": "/react-percentage-calculator/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-percentage-calculator/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "196a911ca56378e35bea",
+    "revision": "d2db3d7c1ad9af44e869",
     "url": "/react-percentage-calculator/static/css/main.5049d2ad.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-percentage-calculator/static/js/2.a6a2b6a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "196a911ca56378e35bea",
-    "url": "/react-percentage-calculator/static/js/main.b3d7b40a.chunk.js"
+    "revision": "d2db3d7c1ad9af44e869",
+    "url": "/react-percentage-calculator/static/js/main.6d85cc32.chunk.js"
   },
   {
     "revision": "407e8be5bd689437827e",
