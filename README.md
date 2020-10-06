@@ -18,11 +18,11 @@ yarn add redux react-redux @types/react-redux
 
 ## 리액트 타입스크립트 공부
 
-- [TypeScript 환경에서 Redux를 프로처럼 사용하기](https://velog.io/@velopert/use-typescript-and-redux-like-a-pro)
+- [리액트 프로젝트에서 타입스크립트 사용하기](https://velog.io/@velopert/using-react-with-typescript)
 
 ## 리액트 공부
 
-https://www.youtube.com/watch?v=rOpg2KUPW2M&list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi&index=16
+- [생활코딩 ; React - 15.1. State 소개](https://youtu.be/rOpg2KUPW2M)
 
 - props ; 사용자에게 중요한 정보 ; 외부
 - state ; 개발자에게 중요한 정보 ; 내부적으로 사용되는 변수
@@ -31,6 +31,5 @@ https://www.youtube.com/watch?v=rOpg2KUPW2M&list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sF
 
 ## 리액트앱 깃허브에 올리기
 
-https://velog.io/@byjihye/react-github-pages
-
+- [React 프로젝트 GitHub Pages 배포하기](https://velog.io/@byjihye/react-github-pages)
 - gh-pages
