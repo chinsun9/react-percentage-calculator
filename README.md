@@ -28,3 +28,9 @@ https://www.youtube.com/watch?v=rOpg2KUPW2M&list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sF
 - state ; 개발자에게 중요한 정보 ; 내부적으로 사용되는 변수
 - 프롭스와 스테이트가 철저하게 분리되어있다. 좋은부품을 만드는데 핵심.
 - 스테이트는 사용자로부터 가려짐.
+
+## 리액트앱 깃허브에 올리기
+
+https://velog.io/@byjihye/react-github-pages
+
+- gh-pages
