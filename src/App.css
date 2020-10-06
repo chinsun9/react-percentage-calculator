@@ -1,0 +1,79 @@
+/* li marker remove */
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+span {
+  display: inline-block;
+  width: 41px;
+  min-width: 41px;
+}
+
+span:nth-child(4) {
+  width: 101px;
+  min-width: 101px;
+}
+
+.row {
+  place-content: center;
+}
+
+#root {
+  padding: 15px;
+}
+#root > div {
+  max-width: 720px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#root > div > div:nth-child(3) > div > div:nth-child(1) {
+  text-align: center;
+}
+
+.sidetab {
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 34px;
+  left: 0;
+  width: 50px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+}
+
+#root > div.sidetab > div > a {
+  color: inherit;
+}
+
+input {
+  min-width: 187px;
+  max-width: 187px;
+  display: inline;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
