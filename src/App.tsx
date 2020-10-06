@@ -19,7 +19,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     calfuntion: (value1, value2) => {
       let suffix = '';
       const result = value1 * value2 * 0.01;
-      return result + suffix;
+      return Number(result.toFixed(15)) + suffix;
     },
   },
   {
@@ -32,7 +32,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     calfuntion: (value1, value2) => {
       let suffix = '%';
       const result = (value2 / value1) * 100;
-      return result + suffix;
+      return Number(result.toFixed(15)) + suffix;
     },
   },
   {
@@ -46,7 +46,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
       let suffix = '%';
       const result = ((value2 - value1) / value1) * 100;
 
-      return result + suffix;
+      return Number(result.toFixed(15)) + suffix;
     },
   },
   {
@@ -59,7 +59,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     calfuntion: (value1, value2) => {
       let suffix = '';
       const result = value1 + value1 * value2 * 0.01;
-      return result + suffix;
+      return Number(result.toFixed(15)) + suffix;
     },
   },
 ];
