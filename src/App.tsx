@@ -46,7 +46,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
       let suffix = '%';
       const result = ((value2 - value1) / value1) * 100;
 
-      return Number(result.toFixed(15)) + suffix;
+      return Number(result.toFixed(12)) + suffix;
     },
   },
   {
