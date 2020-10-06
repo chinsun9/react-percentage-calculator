@@ -21,7 +21,7 @@ export const CalForm: React.FC<CalFormProps> = ({
       console.log('비어있음');
       return;
     }
-    const result = calFuntion.calfuntion(parseInt(value1), parseInt(value2));
+    const result = calFuntion.calfuntion(Number(value1), Number(value2));
     calResult(result);
   };
 
