@@ -62,6 +62,12 @@ span:nth-child(4) {
   color: inherit;
 }
 
+@media (max-width: 840px) {
+  #root > div.sidetab {
+    display: none;
+  }
+}
+
 input {
   min-width: 187px;
   max-width: 187px;
