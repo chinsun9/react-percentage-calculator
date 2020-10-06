@@ -77,3 +77,12 @@ input {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+#root
+  > div.card.container.w-80.border.border-primary.rounded
+  > div.row.mb-4
+  > div
+  > div:nth-child(1)
+  > span {
+  width: 100%;
+}
