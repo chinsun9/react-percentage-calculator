@@ -43,8 +43,9 @@ const initialCalFunctions: Array<CalFunctionSet> = [
       text2: '으로 변하면?',
     },
     calfuntion: (value1, value2) => {
-      let suffix = '%';
       const result = ((value2 - value1) / value1) * 100;
+      const gap = Math.abs(value2 - value1);
+      let suffix = `% (두 값의 차이 ${gap})`;
 
       return Number(result.toFixed(12)) + suffix;
     },
