@@ -1,10 +1,10 @@
 import React from 'react';
-import { CalForm } from './CalForm';
+import CalForm from './CalForm';
 
-export const CalFunctionList: React.FC<CalFunctionsProps> = ({
+export default function CalFunctionList({
   calFunctions,
   calResult,
-}) => {
+}: CalFunctionListProps) {
   return (
     <div className="row mt-3">
       <ul>
@@ -21,4 +21,4 @@ export const CalFunctionList: React.FC<CalFunctionsProps> = ({
       </ul>
     </div>
   );
-};
+}

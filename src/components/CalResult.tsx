@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const CalResult: React.FC<CalResultProps> = ({ result, hideResult }) => {
+export default function CalResult({ result, hideResult }: CalResultProps) {
   const onclick = (e: React.MouseEvent<HTMLInputElement, MouseEvent>) => {
     e.preventDefault();
     hideResult();
@@ -20,4 +20,4 @@ export const CalResult: React.FC<CalResultProps> = ({ result, hideResult }) => {
       </div>
     </div>
   );
-};
+}

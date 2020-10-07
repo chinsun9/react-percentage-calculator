@@ -5,11 +5,7 @@ const initialStateValues: InputValue = {
   value2: '',
 };
 
-export const CalForm: React.FC<CalFormProps> = ({
-  id,
-  calResult,
-  calFuntion,
-}) => {
+export default function CalForm({ id, calResult, calFuntion }: CalFormProps) {
   const [values, setvalues] = useState(initialStateValues);
 
   const handleSubmit = (e: FormEvent<HTMLButtonElement>) => {
@@ -55,4 +51,4 @@ export const CalForm: React.FC<CalFormProps> = ({
       </button>
     </li>
   );
-};
+}

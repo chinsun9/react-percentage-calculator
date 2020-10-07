@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { CalResult } from './components/CalResult';
-import { CalFunctionList } from './components/CalFunctionList';
-import { SideTab } from './components/SideTab';
+import CalResult from './components/CalResult';
+import SideTab from './components/SideTab';
+import CalFunctionList from './components/CalFunctionList';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -64,7 +64,7 @@ const initialCalFunctions: Array<CalFunctionSet> = [
   },
 ];
 
-const App: React.FC = () => {
+function App() {
   const [result, setResult] = useState(initialResult);
 
   const changeResult: SetResult = (newResult: number) => {
@@ -72,7 +72,7 @@ const App: React.FC = () => {
   };
 
   const hideResult = () => {
-    setResult({ vlaue: 0, mode: 'hide' });
+    setResult({ ...result, mode: 'hide' });
   };
 
   return (
@@ -93,6 +93,6 @@ const App: React.FC = () => {
       <SideTab></SideTab>
     </React.Fragment>
   );
-};
+}
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const SideTab: React.FC = () => {
+export default function SideTab() {
   return (
     <div className="sidetab">
       <div className="sideItem">
@@ -24,4 +24,4 @@ export const SideTab: React.FC = () => {
       </div>
     </div>
   );
-};
+}

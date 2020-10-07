@@ -19,15 +19,17 @@ type CalFunctionSet = {
   calfuntion: CalFunction;
 };
 
+type InputValue = {
+  value1: string;
+  value2: string;
+};
+
+// Props
+
 type CalFormProps = {
   id: number;
   calResult: SetResult;
   calFuntion: CalFunctionSet;
-};
-
-type InputValue = {
-  value1: string;
-  value2: string;
 };
 
 type CalResultProps = {
@@ -36,6 +38,11 @@ type CalResultProps = {
 };
 
 type CalFunctionsProps = {
+  calFunctions: Array<CalFunctionSet>;
+  calResult: SetResult;
+};
+
+type CalFunctionListProps = {
   calFunctions: Array<CalFunctionSet>;
   calResult: SetResult;
 };
