@@ -1,6 +1,7 @@
 /* li marker remove */
 ul {
   list-style-type: none;
+  padding: 10px;
 }
 
 li {
@@ -91,4 +92,8 @@ input {
   > div:nth-child(1)
   > span {
   width: 100%;
+}
+
+.cal-box {
+  place-self: center;
 }

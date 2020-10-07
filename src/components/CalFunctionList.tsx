@@ -6,7 +6,7 @@ export default function CalFunctionList({
   calResult,
 }: CalFunctionListProps) {
   return (
-    <div className="row mt-3">
+    <div className="mt-3 cal-box">
       <ul>
         {calFunctions.map((calFunction, index) => {
           return (
