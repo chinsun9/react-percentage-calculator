@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-percentage-calculator/static/css/main.5049d2ad.chunk.css",
-    "main.js": "/react-percentage-calculator/static/js/main.9a5309e9.chunk.js",
-    "main.js.map": "/react-percentage-calculator/static/js/main.9a5309e9.chunk.js.map",
+    "main.css": "/react-percentage-calculator/static/css/main.3d71a58a.chunk.css",
+    "main.js": "/react-percentage-calculator/static/js/main.a3906c40.chunk.js",
+    "main.js.map": "/react-percentage-calculator/static/js/main.a3906c40.chunk.js.map",
     "runtime-main.js": "/react-percentage-calculator/static/js/runtime-main.aeee0d6d.js",
     "runtime-main.js.map": "/react-percentage-calculator/static/js/runtime-main.aeee0d6d.js.map",
     "static/css/2.11829350.chunk.css": "/react-percentage-calculator/static/css/2.11829350.chunk.css",
     "static/js/2.dae1bb25.chunk.js": "/react-percentage-calculator/static/js/2.dae1bb25.chunk.js",
     "static/js/2.dae1bb25.chunk.js.map": "/react-percentage-calculator/static/js/2.dae1bb25.chunk.js.map",
     "index.html": "/react-percentage-calculator/index.html",
-    "precache-manifest.a1cdeebaa492b172bd2862ee9fdba8c3.js": "/react-percentage-calculator/precache-manifest.a1cdeebaa492b172bd2862ee9fdba8c3.js",
+    "precache-manifest.b61b3385cc9dcb8194c1bc678fb7a6a4.js": "/react-percentage-calculator/precache-manifest.b61b3385cc9dcb8194c1bc678fb7a6a4.js",
     "service-worker.js": "/react-percentage-calculator/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/react-percentage-calculator/static/css/2.11829350.chunk.css.map",
-    "static/css/main.5049d2ad.chunk.css.map": "/react-percentage-calculator/static/css/main.5049d2ad.chunk.css.map",
+    "static/css/main.3d71a58a.chunk.css.map": "/react-percentage-calculator/static/css/main.3d71a58a.chunk.css.map",
     "static/js/2.dae1bb25.chunk.js.LICENSE.txt": "/react-percentage-calculator/static/js/2.dae1bb25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aeee0d6d.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.dae1bb25.chunk.js",
-    "static/css/main.5049d2ad.chunk.css",
-    "static/js/main.9a5309e9.chunk.js"
+    "static/css/main.3d71a58a.chunk.css",
+    "static/js/main.a3906c40.chunk.js"
   ]
 }

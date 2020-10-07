@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-percentage-calculator/precache-manifest.a1cdeebaa492b172bd2862ee9fdba8c3.js"
+  "/react-percentage-calculator/precache-manifest.b61b3385cc9dcb8194c1bc678fb7a6a4.js"
 );
 
 self.addEventListener('message', (event) => {
