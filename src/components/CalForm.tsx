@@ -8,7 +8,7 @@ const initialStateValues: InputValue = {
 export default function CalForm({ id, calResult, calFuntion }: CalFormProps) {
   const [values, setvalues] = useState(initialStateValues);
 
-  const handleSubmit = (e: FormEvent<HTMLButtonElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const { value1, value2 } = values;
@@ -28,27 +28,27 @@ export default function CalForm({ id, calResult, calFuntion }: CalFormProps) {
 
   return (
     <li>
-      <input
-        placeholder={calFuntion.calInfo.placeholder1}
-        type="number"
-        name="value1"
-        onChange={onChange}
-      />
-      <span>{calFuntion.calInfo.text1}</span>
-      <input
-        placeholder={calFuntion.calInfo.placeholder2}
-        type="number"
-        name="value2"
-        onChange={onChange}
-      />
-      <span>{calFuntion.calInfo.text2}</span>
-      <button
-        type="button"
-        className="btn btn-outline-primary"
-        onClick={handleSubmit}
-      >
-        계산
-      </button>
+      <form onSubmit={handleSubmit}>
+        <input
+          placeholder={calFuntion.calInfo.placeholder1}
+          type="number"
+          step="0.0000000000001"
+          name="value1"
+          onChange={onChange}
+        />
+        <span>{calFuntion.calInfo.text1}</span>
+        <input
+          placeholder={calFuntion.calInfo.placeholder2}
+          type="number"
+          step="0.0000000000001"
+          name="value2"
+          onChange={onChange}
+        />
+        <span>{calFuntion.calInfo.text2}</span>
+        <button type="submit" className="btn btn-outline-primary">
+          계산
+        </button>
+      </form>
     </li>
   );
 }
