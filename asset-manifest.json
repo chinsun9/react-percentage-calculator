@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-percentage-calculator/static/css/main.3d71a58a.chunk.css",
-    "main.js": "/react-percentage-calculator/static/js/main.a3906c40.chunk.js",
-    "main.js.map": "/react-percentage-calculator/static/js/main.a3906c40.chunk.js.map",
+    "main.js": "/react-percentage-calculator/static/js/main.06a6439d.chunk.js",
+    "main.js.map": "/react-percentage-calculator/static/js/main.06a6439d.chunk.js.map",
     "runtime-main.js": "/react-percentage-calculator/static/js/runtime-main.aeee0d6d.js",
     "runtime-main.js.map": "/react-percentage-calculator/static/js/runtime-main.aeee0d6d.js.map",
     "static/css/2.11829350.chunk.css": "/react-percentage-calculator/static/css/2.11829350.chunk.css",
     "static/js/2.dae1bb25.chunk.js": "/react-percentage-calculator/static/js/2.dae1bb25.chunk.js",
     "static/js/2.dae1bb25.chunk.js.map": "/react-percentage-calculator/static/js/2.dae1bb25.chunk.js.map",
     "index.html": "/react-percentage-calculator/index.html",
-    "precache-manifest.b61b3385cc9dcb8194c1bc678fb7a6a4.js": "/react-percentage-calculator/precache-manifest.b61b3385cc9dcb8194c1bc678fb7a6a4.js",
+    "precache-manifest.91788c89d4b291a369baceedd510bf88.js": "/react-percentage-calculator/precache-manifest.91788c89d4b291a369baceedd510bf88.js",
     "service-worker.js": "/react-percentage-calculator/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/react-percentage-calculator/static/css/2.11829350.chunk.css.map",
     "static/css/main.3d71a58a.chunk.css.map": "/react-percentage-calculator/static/css/main.3d71a58a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.dae1bb25.chunk.js",
     "static/css/main.3d71a58a.chunk.css",
-    "static/js/main.a3906c40.chunk.js"
+    "static/js/main.06a6439d.chunk.js"
   ]
 }
