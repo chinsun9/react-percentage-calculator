@@ -6,7 +6,7 @@
 
 ## [데모](https://chinsun9.github.io/react-percentage-calculator)
 
-<img src="readmeRes/2.jpg">
+[![미리보기](readmeRes/2.jpg)](https://chinsun9.github.io/react-percentage-calculator)
 
 ## 리액트 타입스크립트 시작하는 방법
 
