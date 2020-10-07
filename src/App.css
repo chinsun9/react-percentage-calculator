@@ -20,6 +20,7 @@ span {
   display: inline-block;
   width: 41px;
   min-width: 41px;
+  margin: 5px;
 }
 
 span:nth-child(4) {
@@ -96,4 +97,12 @@ input {
 
 .cal-box {
   place-self: center;
+}
+
+.result-box {
+  text-align: CENTER;
+}
+
+.result-box span {
+  width: 100%;
 }

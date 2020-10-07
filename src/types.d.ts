@@ -1,9 +1,7 @@
-type Result = {
-  vlaue: number;
-  mode: string;
+type ResultState = {
+  value: number | null;
+  isHide: boolean;
 };
-
-type SetResult = (newResult: number) => void;
 
 type CalInfo = {
   placeholder1: string;
@@ -27,22 +25,9 @@ type InputValue = {
 // Props
 
 type CalFormProps = {
-  id: number;
-  calResult: SetResult;
   calFuntion: CalFunctionSet;
 };
 
-type CalResultProps = {
-  result: Result;
-  hideResult: any;
-};
+// Context
 
-type CalFunctionsProps = {
-  calFunctions: Array<CalFunctionSet>;
-  calResult: SetResult;
-};
-
-type CalFunctionListProps = {
-  calFunctions: Array<CalFunctionSet>;
-  calResult: SetResult;
-};
+type Action = { type: 'CALCULATE'; result: ResultState } | { type: 'INIT' };
