@@ -25,11 +25,9 @@ export const CalForm: React.FC<CalFormProps> = ({
     calResult(result);
   };
 
-  const changeValue1 = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setvalues({ value1: e.target.value, value2: values.value2 });
-  };
-  const changeValue2 = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setvalues({ value1: values.value1, value2: e.target.value });
+  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setvalues({ ...values, [name]: value });
   };
 
   return (
@@ -37,13 +35,15 @@ export const CalForm: React.FC<CalFormProps> = ({
       <input
         placeholder={calFuntion.calInfo.placeholder1}
         type="number"
-        onChange={changeValue1}
+        name="value1"
+        onChange={onChange}
       />
       <span>{calFuntion.calInfo.text1}</span>
       <input
         placeholder={calFuntion.calInfo.placeholder2}
         type="number"
-        onChange={changeValue2}
+        name="value2"
+        onChange={onChange}
       />
       <span>{calFuntion.calInfo.text2}</span>
       <button
