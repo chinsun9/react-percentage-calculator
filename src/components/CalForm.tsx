@@ -35,6 +35,7 @@ export default function CalForm({ id, calResult, calFuntion }: CalFormProps) {
           step="0.0000000000001"
           name="value1"
           onChange={onChange}
+          required
         />
         <span>{calFuntion.calInfo.text1}</span>
         <input
@@ -43,6 +44,7 @@ export default function CalForm({ id, calResult, calFuntion }: CalFormProps) {
           step="0.0000000000001"
           name="value2"
           onChange={onChange}
+          required
         />
         <span>{calFuntion.calInfo.text2}</span>
         <button type="submit" className="btn btn-outline-primary">
