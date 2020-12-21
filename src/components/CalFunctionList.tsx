@@ -1,5 +1,13 @@
-import React from 'react';
 import CalForm from './CalForm';
+import React from 'react';
+// import * as math from 'mathjs';
+import { create, all } from 'mathjs';
+
+const mathF = create(all, { number: 'Fraction' }) as math.MathJsStatic;
+
+const mathjsCalc = (expr: string) => {
+  return mathF.number(mathF.evaluate(expr));
+};
 
 const initialCalFunctions: Array<CalFunctionSet> = [
   {
@@ -11,8 +19,8 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     },
     calfuntion: (value1, value2) => {
       let suffix = '';
-      const result = value1 * value2 * 0.01;
-      return Number(result.toFixed(15)) + suffix;
+      const result = mathjsCalc(`${value1} * ${value2} * 0.01`);
+      return result + suffix;
     },
   },
   {
@@ -24,8 +32,8 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     },
     calfuntion: (value1, value2) => {
       let suffix = '%';
-      const result = (value2 / value1) * 100;
-      return Number(result.toFixed(15)) + suffix;
+      const result = mathjsCalc(`(${value2} / ${value1}) * 100`);
+      return result + suffix;
     },
   },
   {
@@ -36,11 +44,11 @@ const initialCalFunctions: Array<CalFunctionSet> = [
       text2: '으로 변하면?',
     },
     calfuntion: (value1, value2) => {
-      const result = ((value2 - value1) / value1) * 100;
+      const result = mathjsCalc(`((${value2} - ${value1}) / ${value1}) * 100`);
       const gap = Math.abs(value2 - value1);
       let suffix = `% (두 값의 차이 ${gap})`;
 
-      return Number(result.toFixed(12)) + suffix;
+      return result + suffix;
     },
   },
   {
@@ -52,8 +60,8 @@ const initialCalFunctions: Array<CalFunctionSet> = [
     },
     calfuntion: (value1, value2) => {
       let suffix = '';
-      const result = value1 + value1 * value2 * 0.01;
-      return Number(result.toFixed(15)) + suffix;
+      const result = mathjsCalc(`${value1} + ${value1} * ${value2} * 0.01`);
+      return result + suffix;
     },
   },
 ];
